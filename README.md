@@ -23,13 +23,12 @@ Users should be able to:
 
 ### Screenshot
 
-![mobile-view]()
-![desktop-view]()
+![desktop-view](images/desktop-view.png)
 
 ### Links
 
 - [View solution on Frontend Mentor]()
-- [View live site]()
+- [View live site](https://3-column-preview-card-denniskin.vercel.app/)
 
 ## My process
 
