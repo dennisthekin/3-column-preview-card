@@ -1,0 +1,120 @@
+:root {
+    /* Primary */
+
+    --bright-orange: hsl(31, 77%, 52%);
+    --dark-cyan: hsl(184, 100%, 22%);
+    --very-dark-cyan: hsl(179, 100%, 13%);
+
+    /* Neutral */
+
+    --transparent-white: hsla(0, 0%, 100%, 0.75);
+    /* Paragraphs */
+    --very-light-gray: hsl(0, 0%, 95%);
+    /* background, headings, buttons */
+
+    /* Typography */
+
+    --font-size: 15px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lexend Deca', sans-serif;
+    background-color: var(--very-light-gray);
+
+    display: grid;
+    place-items: center;
+    min-height: 100vh;
+
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+
+.card {
+    width: 300px;
+    border-radius: 8px;
+    overflow: hidden;
+    margin: 1.3rem;
+}
+
+.card__tile {
+    padding: 3em;
+}
+
+.card__tile-sedans {
+    background-color: var(--bright-orange);
+}
+
+.card__tile-suvs {
+    background-color: var(--dark-cyan);
+}
+
+.card__tile-luxury {
+    background-color: var(--very-dark-cyan);
+}
+
+.img {
+    width: 55px;
+}
+
+.card-title {
+    font-family: 'Big Shoulders Display', cursive;
+    text-transform: uppercase;
+    margin: .75em 0;
+    font-size: 2.2rem;
+    color: var(--very-light-gray);
+}
+
+.card-text {
+    line-height: 1.8;
+    font-size: .85rem;
+    color: var(--transparent-white);
+}
+
+.btn {
+    margin-top: 2em;
+    padding: 1em 2em;
+    cursor: pointer;
+    color: var(--transparent-white);
+    font-family: 'Lexend Deca', sans-serif;
+    border: 2px solid transparent;
+    border-radius: 50px;
+    transition: .2s ease-in;
+}
+
+.btn:hover {
+    border: 2px solid var(--very-light-gray);
+    background-color: rgba(0, 0, 0, 0);
+    color: #fff;
+}
+
+.btn--orange {
+    color: var(--bright-orange);
+}
+
+.btn--cyan {
+    color: var(--dark-cyan);
+}
+
+.btn--very-cyan {
+    color: var(--very-dark-cyan);
+}
+
+/* MEDIA QUERY */
+
+@media (min-width: 900px) {
+    .card {
+        width: 53.125rem; /* 850px */
+        display: flex;
+    }
+    
+    .btn {
+        margin-top: 5em;
+    }
+}
