@@ -27,7 +27,7 @@ Users should be able to:
 
 ### Links
 
-- [View solution on Frontend Mentor]()
+- [View solution on Frontend Mentor](https://www.frontendmentor.io/solutions/responsive-3column-card-using-bem-css-properties-grid-aqdzotxaPw)
 - [View live site](https://3-column-preview-card-denniskin.vercel.app/)
 
 ## My process
